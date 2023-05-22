@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/opciones/ingresoMonto/ingresoMonto.css">
+    <title>Ingreso Monto</title>
+</head>
+<body>
+    <section class="container">
+        <div class="izquierda">
+
+            <h1>Ingresar Monto</h1>
+            <form id="deposito">
+            <h2 id="bienvenido"></h2>
+            <h3 id="saldo"></h3>
+              <div id="ingresaMonto">
+                <label>Ingresa Monto:</label>
+                <input id="inputDeposito" type="number" placeholder="0">
+              </div>
+        
+            </form>
+            <div class="botones">
+              <button class="cancelar" type="button" onclick="history.back();">Cancelar</button>
+              <button class="continuar" type="submit" onclick="depositar(document.getElementById('inputDeposito').value);">Depositar</button>
+            </div>
+          </div>
+          </div>
+          <div class="derecha">
+            <img class="puerquito" src="/images/piggy-bank.png" alt="alcancía de puerquito morado">
+          </div>
+
+    </section>
+    <script src="/opciones/ingresoMonto/ingresoMonto.js"></script>
+</body>
+</html>

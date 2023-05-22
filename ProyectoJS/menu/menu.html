@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/menu/menu.css">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <section class="container">
+        <div class="izquierda">
+            <h1 id="bienvenido"></h1>
+            <h4>Por favor seleccione su transacción</h4>
+      <form id="menu">
+        <div class="opciones">
+            <button class="consulta" type="button" onclick="changePage1();">Consultar Saldo </button>
+            <button class=" ingreso" type="button" onclick="changePage2();">Ingresar Monto</button>
+            <button class="retiro" type="button" onclick="changePage3();">Retirar Monto</button>
+          </div>
+          <div class="boton">
+            <button class="cancelar" type="button" onclick="history.back();">Cancelar</button>
+          </div>
+    
+      </form>
+        </div>
+       <div class="derecha">
+        <img class="puerquito" src="/images/piggy-bank.png" alt="alcancía de puerquito morado">
+       </div>
+    </section>
+      
+        
+    <script src="/menu/menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index/index.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <section class="container">
+        <div class="izquierda">
+            <h1>Iniciar Sesión</h1>
+            <form id="form">
+                <p>Usuario:</p>
+                <input id="user" type="text" name="user" placeholder="Ingresa tu usuario">
+                <span id="errorUsuario" class="hide">Usuario Incorrecto.</span>
+                <p>Contraseña:</p>
+                <input id="password" type="password" name="password" placeholder="Ingresa tu password">
+                <span id="errorPassword" class="hide">Contraseña Incorrecta.</span>
+                <button type="submit" onclick="login()">Ingresar</button>
+            </form>
+        </div>
+        <div class="derecha">
+            <img class="puerquito" src="/images/piggy-bank.png" alt="alcancía de puerquito morado">
+          </div> 
+       
+    </section>
+   
+    <script src="/index/index.js"></script>
+</body>
+</html>
